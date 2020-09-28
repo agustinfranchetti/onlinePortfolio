@@ -12,7 +12,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-404 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +35,11 @@ body, html {
 .bgimg-3 {
   background-image: url("https://i.ibb.co/645qmcq/me2.jpg");
   min-height: 400px;
+}
+
+.bgimg-404 {
+  background-image: url("https://i.ibb.co/NsCwNm3/IMG-20200114-142755.jpg");
+  min-height: 65%;
 }
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
