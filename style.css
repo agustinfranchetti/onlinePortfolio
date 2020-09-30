@@ -11,7 +11,7 @@ body, html {
   color: rgb(0, 0, 0);
 }
 
-/* Create a Parallax Effect */
+/* Parallax */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-404 {
   background-attachment: fixed;
   background-position: center;
@@ -19,19 +19,19 @@ body, html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* Imagen Principal */
 .bgimg-1 {
   background-image: url("https://i.ibb.co/NsCwNm3/IMG-20200114-142755.jpg");
   min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Imagen Porfolio */
 .bgimg-2 {
   background-image: url("https://i.ibb.co/dWPmW7Z/DSC-9553-1.jpg");
   min-height: 400px;
 }
 
-/* Third image (Contact) */
+/* Imagen Contacto */
 .bgimg-3 {
   background-image: url("https://i.ibb.co/645qmcq/me2.jpg");
   min-height: 400px;
