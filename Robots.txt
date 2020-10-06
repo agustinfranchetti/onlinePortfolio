@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /github-widget/
+Disallow: README.md
+Disallow: Dockerfile
+Disallow: sitemap.txt
